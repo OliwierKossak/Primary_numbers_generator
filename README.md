@@ -11,13 +11,13 @@
 After analizations of primary numbers I realized that difference between consecutive numbers is always even number (exceptions is 2 and 3 difference is 1).
 This avoids checking each subsequent number. instead, starting from 3,program  can check every other number. This saves valuable resources.
 
-### Chart of occurrences for differences between subsequent numbers:
+### Chart of occurrences for differences between subsequent numbers for range(20000):
 ![image](https://github.com/OliwierKossak/Primary_numbers_generator/assets/138603416/78f7aec9-102f-4d87-820d-63f474655ae8)
 
 ### My algorithm.
 My improvement is simple. the algorithm adds the number 2 to the list of prime numbers. Then the loop starts iterating from the number 3 and checks every second value for prime numbers.
 
-### Chart presents of time execution for basic and my algorithm:
+### Chart presents of time execution for basic and my algorithm range(20000)::
 ![image](https://github.com/OliwierKossak/Primary_numbers_generator/assets/138603416/7ef4edc6-8a73-4fbd-9938-dc95fc3d8744)
 
 Execution time shortened by approximately 16%.
