@@ -17,7 +17,7 @@ This avoids checking each subsequent number. instead, starting from 3,program  c
 ### My algorithm.
 My improvement is simple. the algorithm adds the number 2 to the list of prime numbers. Then the loop starts iterating from the number 3 and checks every second value for prime numbers.
 
-### Chart presents of time execution for basic and my algorithm range(20000)::
+### Chart presents of time execution for basic and my algorithm range(20000):
 ![image](https://github.com/OliwierKossak/Primary_numbers_generator/assets/138603416/7ef4edc6-8a73-4fbd-9938-dc95fc3d8744)
 
 Execution time shortened by approximately 16%.
